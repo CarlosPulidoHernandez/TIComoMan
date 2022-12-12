@@ -18,7 +18,7 @@ import com.fasterxml.jackson.annotation.JsonAutoDetect.Visibility;
 
 @RestController
 @RequestMapping("/ticomo")
-@CrossOrigin(origins = *)
+@CrossOrigin(origins = {*})
 /*
  * Esta clase actúa como un patrón de
  * diseño encargado de llamar al servicio para que registre tanto usuarios como riders y para loggear
